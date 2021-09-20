@@ -1,5 +1,7 @@
-var x, y ,z;
-y=3;
-z=5;
-x=2*y+z;
-document.write ("x = "+x);
+var a,b;
+a=prompt("Digite um número");
+a=parseInt(a);
+b=prompt("Digite outro número");
+b=parseInt(b);
+document.write ("soma: "+ (a+b));
+document.write ("<br>subtração: "+ (a-b));
