@@ -1,10 +1,11 @@
 //não igual (Diferente)
 var a,b,res;
-a=10;
-b="10";
-res=(a!=b);
-document.write("res = "+res);
+a=10;//  10 inteiro
+b="10";//10 string
+res=(a!=b);//false
+document.write("res = "+res);//res = false
 /*
-!= - não iguais
-
+! - não
+!=  - não iguais
+!== - não idêntico
 */
