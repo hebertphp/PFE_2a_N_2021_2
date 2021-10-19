@@ -1,6 +1,6 @@
-var login, senha, entrada_login, entrada_senha, res;
-login="hokage";
-senha="1234";
+var entrada_login, entrada_senha, res;
+const login="hokage";
+const senha="1234";
 
 entrada_login=prompt("Digite seu login");
 entrada_senha=prompt("Digite a sua senha");
