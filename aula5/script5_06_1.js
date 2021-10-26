@@ -1,8 +1,7 @@
 var login, valor;
-
 login=prompt("Digite o login");
-
-if(login=="Jose"){
+senha=prompt("Digite a senha");
+if(login=="Jose" && senha=="1234"){
     document.write("Bem vindo Jose");
 }
 else if(login=="Maria"){
