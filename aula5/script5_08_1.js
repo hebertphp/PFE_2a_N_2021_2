@@ -1,4 +1,10 @@
 var i;
+i=0; //valor inicial 
+while (i < 5) {//condição
+ document.write(i + "<br>");
+ i++;//contador soma 1
+}
+document.write("<hr>");
 i=2; //valor inicial 
 while (i <= 5) {//condição
  document.write(i + "<br>");
@@ -17,20 +23,19 @@ while (i >=1) {//condição
  i--;//contador subtrai 1
 }
 document.write("<hr>");
-i=4; //valor inicial 
-while (i >=1) {//condição
+i=0; //valor inicial 
+while (i<=8) {//condição
  document.write(i + "<br>");
- i--;//contador subtrai 1
+ //i++;i++;
+//  i=i+2;
+    i+=2;//contador para somar qualquer valor
 }
 /*
-
-Condição só pode ter valor 
-TRUE ou FALSE....... 
 Teste de mesa
-i   (i>=1)     saída  contador: i--
-4   true        4
-3   true        3
-2   true        2
-1   true        1
-0   false
+i   (i)     saída  contador: 
+                0
+                2
+                4
+                6
+                8
 */
