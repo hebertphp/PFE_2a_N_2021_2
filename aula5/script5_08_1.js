@@ -32,10 +32,11 @@ while (i<=8) {//condição
 }
 /*
 Teste de mesa
-i   (i)     saída  contador: 
-                0
-                2
-                4
-                6
-                8
+i   (i<=8)     saída  contador: i+=2
+0   true        0
+2   true        2
+4   true        4
+6   true        6
+8   true        8
+10  false
 */
