@@ -1,9 +1,9 @@
 var nota=[10,8,6,7,9];//var do tipo array
 //        0  1 2 3 4
-var x, msg;
+var x, msg,i;
 var uf=["SP","RJ","MG","ES"];
 //       0    1    2     3
-x=uf[2];
+x=uf[0];
 switch(x){
     case "SP":
         msg="São Paulo";
