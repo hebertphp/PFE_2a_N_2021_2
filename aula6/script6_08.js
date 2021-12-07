@@ -1,4 +1,4 @@
-var num=[10,20,30,40,50];
+var num=[10,20,30,40,50,70];
 var tam;
 tam=num.length;
 document.querySelector("#dv1").innerHTML="var num possui "+tam+" valores<hr>";
