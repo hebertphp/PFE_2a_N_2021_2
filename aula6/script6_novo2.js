@@ -1,10 +1,19 @@
-var x, msg, i;
+var x, msg, i, j, s;
 var uf=["SP","RJ","MG","ES"];
-msg="";
-for(i=0;i<=3;i++)
-    msg+=i+" ";
-    
+//       0    1    2   3
+x=[10,3,5];
+//  0 1 2
+msg="";s="";
+//i++  i+=1
+for(i=0;i<=3;i+=1){
+    // msg+=i+" ";
+    msg+=i+" "+uf[i]+"<br>";
+}
 document.querySelector(".teste").innerHTML=msg;
-/*
-0 1 2 3
-*/
+
+j=0;
+while(j<=2){
+  s+=x[j]+"<br>";
+  j++;
+}
+document.querySelector(".teste").innerHTML=s;
