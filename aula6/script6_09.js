@@ -4,6 +4,6 @@ msg="";
 var meses=["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
 
 for(i=0;i<=12;i++){
-    msg+=i+"<hr>";
+    msg+=meses+"<hr>";
 }
 document.querySelector(".teste").innerHTML=msg;
