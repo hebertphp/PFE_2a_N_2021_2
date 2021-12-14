@@ -6,8 +6,10 @@ var meses=["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto
 for(i=0;i<meses.length;i++){
     msg+=meses[i]+"<hr>";
 }
+document.querySelector(".teste").innerHTML=msg;
+
+msg="";
 for(i=0;i<num.length;i++){
     msg+=num[i]+"<hr>";
 }
 document.querySelector("#dv1").innerHTML=msg ;
-document.querySelector(".teste").innerHTML=msg;
