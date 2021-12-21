@@ -4,3 +4,4 @@ function soma(...num){
     return resultado;
 }
 document.querySelector(".d1").innerHTML=soma(20,17);
+//                                            0 1 
