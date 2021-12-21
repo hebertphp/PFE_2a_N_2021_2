@@ -1,16 +1,21 @@
 function calc(n1,n2,oper){
-    document.write(oper);
     if(oper=="+"){
         return n1+n2;
     }
+    else if(oper=="-"){
+        return n1-n2;
+    }
+    else if(oper=="*"){
+        return n1*n2;
+    }
+    else{
+        return "Operador: <b>"+oper+"</b> não encontrado!";
+    }
 
-
-    
 }
     var num1=parseFloat(prompt("Digite um número"));
     var num2=parseFloat(prompt("Digite outro número"));
     var op=prompt("Digite a operação");
-    // document.write("num1: "+num1+", num2: "+num2+" calc: "+calc(num1,num2));
     document.querySelector(".d1").innerHTML="num1: "+num1+", num2: "+num2+" calc: "+calc(num1,num2,op);
 
     /*
